@@ -1,0 +1,3 @@
+FROM openjdk:8u131-jdk-alpine
+WORKDIR /src
+ENTRYPOINT javac Hello.java && java Hello
